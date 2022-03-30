@@ -1,0 +1,23 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            // start coding here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2194#comment
+status: Failed
+feedback:
+  message: "Failed test #1 of 10. Runtime error\n\nThis is a sample test from the\
+    \ problem statement!\n\nTest input:\n14\n-1\n-1\n0\n0\n-1\n-1\n0\n0\n1\n0\n1\n\
+    -1\n1\n0\n\nCorrect output:\n6 3 5\n\nYour code output:\n\n\nError:\nException\
+    \ in thread \"main\" java.lang.ArithmeticException: / by zero\n\tat Main.main(Main.java:15)\n"
+  time: Wed, 26 Jan 2022 19:35:03 UTC
+record: -1
